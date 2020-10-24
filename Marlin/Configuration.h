@@ -111,7 +111,7 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
-#define BAUDRATE 500000
+#define BAUDRATE 250000
 //#define BAUD_RATE_GCODE     // Enable G-code M575 to set the baud rate
 
 /**
@@ -624,9 +624,15 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp 21.73
-    #define DEFAULT_Ki 1.54
-    #define DEFAULT_Kd 76.55
+    // Ender 3 stock
+    //#define DEFAULT_Kp 21.73
+    //#define DEFAULT_Ki 1.54
+    //#define DEFAULT_Kd 76.55
+
+    // From PID Autotune 24/10/2020
+    #define DEFAULT_Kp 32.41
+    #define DEFAULT_Ki 3.79
+    #define DEFAULT_Kd 69.22
   #endif
 #endif
 
@@ -711,10 +717,10 @@
   //#define DEFAULT_bedKi .023
   //#define DEFAULT_bedKd 305.4
 
-  // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
-  #define DEFAULT_bedKp 50.71
-  #define DEFAULT_bedKi 9.88
-  #define DEFAULT_bedKd 173.43
+  // From PID Autotune 24/10/2020
+  #define DEFAULT_bedKp 196.72
+  #define DEFAULT_bedKi 35.51
+  #define DEFAULT_bedKd 726.61
 #endif // PIDTEMPBED
 
 //===========================================================================
