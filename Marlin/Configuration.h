@@ -497,10 +497,10 @@
     //#define DEFAULT_Ki 1.54
     //#define DEFAULT_Kd 76.55
 
-    // From PID Autotune 24/10/2020
-    #define DEFAULT_Kp 32.41
-    #define DEFAULT_Ki 3.79
-    #define DEFAULT_Kd 69.22
+    // From PID Autotune 18/02/2021
+    #define DEFAULT_Kp 21.44
+    #define DEFAULT_Ki 1.80
+    #define DEFAULT_Kd 63.96
   #endif
 #endif // PIDTEMP
 
