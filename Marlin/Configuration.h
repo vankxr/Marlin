@@ -629,10 +629,10 @@
     //#define DEFAULT_Ki 1.54
     //#define DEFAULT_Kd 76.55
 
-    // From PID Autotune 18/02/2021
-    #define DEFAULT_Kp 21.44
-    #define DEFAULT_Ki 1.80
-    #define DEFAULT_Kd 63.96
+    // From PID Autotune 11/01/2021
+    #define DEFAULT_Kp 23.31
+    #define DEFAULT_Ki 1.82
+    #define DEFAULT_Kd 74.54
   #endif
 #endif
 
