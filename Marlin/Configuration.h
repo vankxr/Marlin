@@ -629,10 +629,10 @@
     //#define DEFAULT_Ki 1.54
     //#define DEFAULT_Kd 76.55
 
-    // From PID Autotune 11/01/2021
-    #define DEFAULT_Kp 23.31
-    #define DEFAULT_Ki 1.82
-    #define DEFAULT_Kd 74.54
+    // From PID Autotune 22 Nov 2025
+    #define DEFAULT_Kp 25.96
+    #define DEFAULT_Ki 2.06
+    #define DEFAULT_Kd 81.69
   #endif
 #endif
 
@@ -717,10 +717,10 @@
   //#define DEFAULT_bedKi .023
   //#define DEFAULT_bedKd 305.4
 
-  // From PID Autotune 24/10/2020
-  #define DEFAULT_bedKp 196.72
-  #define DEFAULT_bedKi 35.51
-  #define DEFAULT_bedKd 726.61
+  // From PID Autotune 22 Nov 2025
+  #define DEFAULT_bedKp 147.36
+  #define DEFAULT_bedKi 20.88
+  #define DEFAULT_bedKd 693.27
 #endif // PIDTEMPBED
 
 //===========================================================================
